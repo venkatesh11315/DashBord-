@@ -31,7 +31,7 @@ function Navabar() {
             <hr className="sidebar-divider my-0"/>
 
             {/* <!-- Nav Item - Dashboard --> */}
-            <Link to='./Dashbord.js'>
+            <Link to='./Dashbord.js '  style={{textDecoration:"none"}}>
                        
                      
             <li className="nav-item">
@@ -74,11 +74,11 @@ function Navabar() {
         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionSidebar">
             <div className="bg-white py-2 collapse-inner rounded">
                 <h6 className="collapse-header">Custom Components:</h6>
-                <Link to='./Button.js'>
+                <Link to='./Button.js'  style={{textDecoration:"none"}}>
                
                 <a className="collapse-item" >Buttons</a>
                 </Link>
-                <Link to='./Newcard.js'>
+                <Link to='./Newcard.js' style={{textDecoration:"none"}} >
                      <a className="collapse-item" >Cards</a>
                 </Link>
                
